@@ -42,7 +42,7 @@ export default function Dat() {
       : "";
   return (
     <form onSubmit={formik.handleSubmit}>
-        <Paper sx={{backgroundColor:"#eedd82",mb:3}}>
+        <Paper sx={{backgroundColor:"#eedd82",p:1.5,mr:2,mt:3}}>
         <Typography sx={{ mt: 3, fontSize: 25, ml: 5 }}>Date</Typography>
     <Grid container sx={{mt:6,ml:7}}>
       <Grid item xs={4}>
